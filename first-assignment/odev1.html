@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="search.js"></script>    
+    <script src="jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="ISO-8859-1">
+    <title> Homework -1- </title>
+    <meta name="author" content="Cihat KOÇAK">
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+
+<body>
+
+    <h1></h1 >
+
+    <div class="firstDiv">
+        <h2>your GitHub Address:</h2>
+        <img src="https://github.com/fluidicon.png" alt="GIT" style="width:50px;"></img>
+        <input class="input" type="text" placeholder="Type Github username here..." id="lname" name="lname"><br><br>
+        <button class="button" value="Search!" onclick="search()">Search!</button>
+        <p class="pError"><b id="error"></b></p>
+    </div>
+    <br> <br>
+
+    <div class="scDiv">
+
+        <div class="row">
+            <div class="columnProfile">
+                <div id="img"></div>
+                <p id="name"></p>
+                <p id="username"></p>
+            </div>
+            <div class="columnCode" >
+                <p id="repos"></p>
+                <p id="codeSize"></p>
+            </div>
+        </div>
+        <br> <br>
+        <hr>
+        <br> <br>
+
+        <div id="addToMe" class='parent flex-parent'>
+
+            <!-- Codes Language Here -->
+
+        </div>
+
+    </div>
+
+    <p class="pCreated">Created by Cihat KOÇAK</p>
+
+
+
+
+    
+
+</body>
+
+</html>

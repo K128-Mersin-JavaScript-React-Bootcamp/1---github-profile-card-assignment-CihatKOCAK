@@ -1,0 +1,68 @@
+.firstDiv {
+    border: 5px outset #000000;
+    background-color: #454545;    
+    text-align: center;
+  }
+  .scDiv {
+    border: 1px outset #000000;
+    text-align: left;
+    padding: 50px;
+
+  }
+
+  .pError{
+    color: red;
+    
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #999999;
+    color: white;
+    text-align: center;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+
+  .flex-parent {
+      text-align: center;
+    display: flex;
+  }
+  .flex-child {
+    flex: 1;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #454545;  
+    
+  }
